@@ -3,10 +3,14 @@
     display: grid;
     grid-template-areas:
       'sidebar messagelist messagelist messagelist'
+      'sidebar messagelist messagelist messagelist'
+      'sidebar messagelist messagelist messagelist'
+      'sidebar messagelist messagelist messagelist'
       'sidebar addmessage addmessage addmessage';
     grid-gap: 10px;
     background-color: #2196F3;
     padding: 10px;
+    height: 96vh;
 }
 
 .sideBar {
