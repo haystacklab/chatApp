@@ -8,13 +8,9 @@ class ChatApp extends Component {
   render() {
       return (
         <div className="mainContainer">
-          <div className="sideBar">
-            <Sidebar />
-          </div>
-        <section className="main">
+          <Sidebar />
           <MessageList />
           <AddMessage />
-        </section>
       </div>
     )
   }

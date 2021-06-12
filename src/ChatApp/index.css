@@ -1,26 +1,35 @@
 .mainContainer {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     display: grid;
     grid-template-areas:
-      'sidebar main main main main';
+      'sidebar messagelist messagelist messagelist'
+      'sidebar addmessage addmessage addmessage';
     grid-gap: 10px;
     background-color: #2196F3;
     padding: 10px;
 }
 
-.mainContainer > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 10px;
-    font-size: 30px;
-}
-
-.sidebar {
+.sideBar {
+    /* grid */
     grid-area: sidebar;
 }
 
-.main {
-    grid-area: main;
+.MessageList {
+    /* grid */
+    grid-area: messagelist;
+    /* other styles */
+    border: 1px solid #000;
+}
+
+.AddMessage {
+    /* grid */
+    grid-area: addmessage;
+    /* other styles */
+    border: 1px solid #000;
+
+}
+
+.mainContainer > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 10px;
